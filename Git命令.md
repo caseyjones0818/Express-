@@ -9,9 +9,6 @@ git push origin master    推送到远程master
 git log     查看提交日志
 
 
-
-
-
 cd existing_folder
 git init
 git remote rm origin
@@ -30,4 +27,7 @@ git push -u origin master
 第二种方法
    git reset --hard HEAD
    git pull
+
+github 的分支操作
+https://www.cnblogs.com/51kata/p/5965791.html   
 
