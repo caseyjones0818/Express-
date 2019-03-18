@@ -31,3 +31,6 @@ git push -u origin master
 github 的分支操作
 https://www.cnblogs.com/51kata/p/5965791.html   
 
+git rm -r --cached node_modules
+git commit -m '移除node_modules文件夹'
+git push origin master
