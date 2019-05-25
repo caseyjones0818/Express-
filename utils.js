@@ -11,3 +11,32 @@ function getLocationParameter() {
     }
     return theRequest;
 }
+/**
+ * 数字替换方法
+ * @param value 原始值
+ * @param decimalLength 保留小数位
+ * @returns {*|void|string}
+ */
+function numberReplace(value, decimalLength) {
+    let val = value;
+    if (!val) {
+        return "";
+    }
+    val = val.replace(/[^\d+(\.\d+\-)?$]/gi, '');
+    let index = val.indexOf('.');
+    if (index === 0) {
+        return "";
+    }
+    if (index > 0) {
+        let priceValueArray = val.split(".");
+        let decimal = priceValueArray[1];
+        val = priceValueArray[0];
+        if (decimalLength > 0) {
+            val += "." + (decimal.length > decimalLength ? decimal.substr(0, decimalLength) : decimal);
+        }
+    }
+    if (val <= 0) {
+        return "";
+    }
+    return val;
+}
