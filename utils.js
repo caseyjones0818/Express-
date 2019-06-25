@@ -57,5 +57,15 @@ function htmlstr() {
     var text = html_str.replace(re ,"");
     return text
 }
+//去掉数组的空字符串
+function clearArrNullStr() {
+    var parkingList = data.data;//后台返回数据
+    for(var i = 0;i<parkingList.length;i++){
+        if(parkingList[i]==''||parkingList[i]==null||typeof(parkingList[i])==undefined){
+            parkingList.splice(i,1);
+            i=i-1;
+        }
+    }
+}
 
 
