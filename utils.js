@@ -40,3 +40,22 @@ function numberReplace(value, decimalLength) {
     }
     return val;
 }
+
+//在list集合中根据某key的值查询对象
+function searchObjectByKey(list,key,keyValue){
+   
+   for(var i=0;i<list.length;i++){
+      if(list[i][key]==keyValue){
+         return list[i];
+      }        
+   }
+   return null;      
+}
+//拿出html标签的内容
+function htmlstr() {
+    var re = new RegExp('<[^<>]+>','g');
+    var text = html_str.replace(re ,"");
+    return text
+}
+
+
