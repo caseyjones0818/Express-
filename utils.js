@@ -68,4 +68,23 @@ function clearArrNullStr() {
     }
 }
 
-
+// js输出数据类型为decimal(3, 2)，加0
+function decimalFixed(str, len) {
+    if (str<=0)str = '0.01';
+    let ret = Math.round(parseFloat(str) * 100) / 100;
+    let decimal = ret.toString().split('.');
+    console.log(decimal)
+    if (decimal[0].length > len) {
+        return (1 * Math.round(Math.pow(10,len)))- 0.01;
+    }
+    if (decimal.length === 1) {
+        return ret.toString() + '.00'
+    };
+    if (decimal.length > 1) {
+        if (decimal[1].length < 2) {
+            return ret.toString() + '0'
+        }
+        return ret
+    };
+    return ret;
+}
