@@ -100,7 +100,7 @@ _arr:数组
 _obj:需删除的对象
 */
 // https://www.cnblogs.com/LoveQin/p/8663006.html
-function removeAaary(_arr, _obj) {
+function removeList(_arr, _obj) {
     var length = _arr.length;
     for (var i = 0; i < length; i++) {
         if (_arr[i] == _obj) {
