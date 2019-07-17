@@ -88,3 +88,10 @@ function decimalFixed(str, len) {
     };
     return ret;
 }
+// 找到数组中的值删除
+Array.prototype.remove = function(val) {
+    var index = this.indexOf(val);
+    if (index > -1) {
+        this.splice(index, 1);
+    }
+};
