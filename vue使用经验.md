@@ -10,7 +10,9 @@ Vue 中实现双向绑定的 4 种方法 https://segmentfault.com/a/119000001378
 4.vue-better-sync 插件
 
 Vue中的$set的使用  https://www.cnblogs.com/Smiled/p/7683097.html
+
 vue项目中如何实现国际化 https://www.cnblogs.com/scode2/p/9098579.html
+
 vue之slot，组件标签嵌套 https://www.cnblogs.com/s313139232/p/9965254.html
 
 vue定义组件模板的七种方式 https://www.jianshu.com/p/c0e0204fe24f
