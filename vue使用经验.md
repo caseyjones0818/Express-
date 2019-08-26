@@ -20,3 +20,5 @@ vue定义组件模板的七种方式 https://www.jianshu.com/p/c0e0204fe24f
 vue子组件和父组件之间的传值 https://www.cnblogs.com/daiwenru/p/6694530.html
 
 vue中动态添加swiper，滑动效果不起作用 https://blog.csdn.net/sinat_40257787/article/details/80514156
+
+vue动态style， :style="{backgroundImage: 'url('+ item.thumbnailPcUrl +')'}"
