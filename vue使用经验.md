@@ -22,3 +22,5 @@ vue子组件和父组件之间的传值 https://www.cnblogs.com/daiwenru/p/66945
 vue中动态添加swiper，滑动效果不起作用 https://blog.csdn.net/sinat_40257787/article/details/80514156
 
 vue动态style， :style="{backgroundImage: 'url('+ item.thumbnailPcUrl +')'}"
+
+vue 验证码倒计时 ： https://blog.csdn.net/weixin_41829196/article/details/82285191
