@@ -24,3 +24,8 @@ vue中动态添加swiper，滑动效果不起作用 https://blog.csdn.net/sinat_
 vue动态style， :style="{backgroundImage: 'url('+ item.thumbnailPcUrl +')'}"
 
 vue 验证码倒计时 ： https://blog.csdn.net/weixin_41829196/article/details/82285191
+
+vue-cropper 截图上传组件出现无法重复上传同一张图片时使用以下
+var file = document.getElementById('file');
+file.value = ''; //虽然file的value值不能设为有内容的字符，但是可以设置为空字符
+https://blog.csdn.net/lihefei_coder/article/details/76850498
