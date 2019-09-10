@@ -29,3 +29,5 @@ vue-cropper 截图上传组件出现无法重复上传同一张图片时使用�
 var file = document.getElementById('file');
 file.value = ''; //虽然file的value值不能设为有内容的字符，但是可以设置为空字符
 https://blog.csdn.net/lihefei_coder/article/details/76850498
+
+onmouseover闪烁问题 鼠标移动上去会不停的闪烁 解决方法https://segmentfault.com/q/1010000009888794
